@@ -3,7 +3,7 @@ clientside-recommender
 
 A client-side recommender system implemented in Javascript. It uses the Weighted Item KNN algorithm, as implemented in the MyMediaLite Recommender System Framework.
 
-    http://mymedialite.net/
+    [http://mymedialite.net/](http://mymedialite.net/)
 
 For the theoretical backgound see "Item-based nearest neighbor recommendation" in:
 
@@ -14,11 +14,11 @@ For the theoretical backgound see "Item-based nearest neighbor recommendation" i
 
 An example application is available here:
 
-    http://sibyl.prototyping.bbc.co.uk/
+    [http://sibyl.prototyping.bbc.co.uk/](http://sibyl.prototyping.bbc.co.uk/)
 
 To use the engine you must to load two JavaScript files - one containing the engine, the other containing the recommender model.
 
-Recommender Engine
+Recommender engine
 --------------------
 
 The engine implements pre-filtering, prediction, ranking and post-filtering.
@@ -33,7 +33,7 @@ It provides two methods:
 
 You set the order of this list when you build the model. For example it could be in order of popularity (i.e. non-personalised recommendations)
 
-2) Get an ordered list of Recommendations based on the user's likes and dislikes
+2) Get an ordered list of recommendations based on the user's likes and dislikes
 
     Receng.getRecs(genre, type, likes, dislikes)
 
@@ -65,9 +65,15 @@ and require the JAR file:
     
 These files have several TODO comments where you need to supply data of some kind.
 
-Collaborative filtering models can built from user-item feedback or ratings. See 
-
 Licensing terms and authorship
 ------------------------------
 
-See 'COPYING' and 'AUTHORS' files.
+See [COPYING](COPYING)
+
+## Authors
+
+See [AUTHORS](AUTHORS)
+
+## Copyright
+
+Copyright 2013 British Broadcasting Corporation
