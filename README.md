@@ -3,7 +3,7 @@ clientside-recommender
 
 A client-side recommender system implemented in Javascript. It uses the Weighted Item KNN algorithm, as implemented in the MyMediaLite Recommender System Framework.
 
-    [http://mymedialite.net/](http://mymedialite.net/)
+* [http://mymedialite.net/](http://mymedialite.net/)
 
 For the theoretical backgound see "Item-based nearest neighbor recommendation" in:
 
@@ -14,7 +14,7 @@ For the theoretical backgound see "Item-based nearest neighbor recommendation" i
 
 An example application is available here:
 
-    [http://sibyl.prototyping.bbc.co.uk/](http://sibyl.prototyping.bbc.co.uk/)
+* [http://sibyl.prototyping.bbc.co.uk/](http://sibyl.prototyping.bbc.co.uk/)
 
 To use the engine you must to load two JavaScript files - one containing the engine, the other containing the recommender model.
 
