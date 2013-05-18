@@ -47,7 +47,8 @@ Parameters for both methods:
     
 Both methods return an indexed array of programmes (the best recommendation is at index 0). Each entry is an associative array with the following key/value pairs:
     
-<table>    
+<table> 
+<tr><th>Key</th><th>Value</th></tr>
 <tr><td>“p”</td><td>item D</td></tr>
 <tr><td>“t”</td><td>title</td></tr>
 <tr><td>“g”</td><td>genre</td></tr>
