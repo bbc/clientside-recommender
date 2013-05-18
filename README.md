@@ -1,7 +1,7 @@
 clientside-recommender
 =================
 
-A client-side recommender system implemented in Javascript. It uses the Weighted Item KNN algorithm, as implemented in the MyMediaLite Recommender System Framework.
+A client-side recommender system implemented in Javascript. It uses the Weighted Item kNN algorithm, as implemented in the MyMediaLite Recommender System Framework which can be used to train the kNN model.
 
 * [http://mymedialite.net/](http://mymedialite.net/)
 
@@ -58,7 +58,7 @@ Both methods return an indexed array of programmes (the best recommendation is a
 
 Items beyond their expiry date (if present) will not be returned.
 
-The engine includes a genre diversification post-filter which prevents the same genre appearing more than once in three consecutive recommendations. To disable set the diversity variable to false.
+The engine includes a genre diversification post-filter which prevents the same genre appearing more than once in three consecutive recommendations. To disable set the diversify variable in the Receng function to false.
     
 Recommender model 
 -------------------
@@ -72,7 +72,7 @@ The models can either use content-based filtering (based on item-attributes) or 
      src/AttributeBasedModelBuilder.java
      src/CollaborativeModelBuilder.java
 
-and require the JAR file:
+Both require the JAR file:
 
     lib/mymedialite.jar
     
