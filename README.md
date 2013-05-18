@@ -45,12 +45,24 @@ Parameters for both methods:
 
 *likes* and *dislikes* are arrays of item IDs which the user likes or dislikes. If null or undefined they are ignored. In the getChoices method these IDs are simply blacklists (they remove the items from the results). In the getRecs method they are used to personalize the results - if no likes or dislikes are provided getRecs returns the same list as getChoices.
     
+Both methods return an indexed array of programmes (the best recommendation is at index 0). Each entry is an associative array with the following key/value pairs:
+    
+<table>    
+<tr><td>“p”</td><td>item D</td></tr>
+<tr><td>“t”</td><td>title</td></tr>
+<tr><td>“g”</td><td>genre</td></tr>
+<tr><td>“v”</td><td>media type</td></tr>
+<tr><td>"x"</td><td>expiry date (optional) e.g. "2012/12/27 20:55:00"</td></tr> 
+</table>
+
+Items beyond their expiry date (if present) will not be returned.
+
 The engine includes a genre diversification post-filter which prevents the same genre appearing more than once in three consecutive recommendations. To disable set the diversity variable to false.
     
 Recommender model 
 -------------------
 
-The model file contains a kNN model and some basic item metadata which is used for filtering and presentation purposes.  For an example model file see: 
+The model file contains a kNN model and some basic item metadata which is used for filtering and presentation purposes. The metadata consists of title, genre, media type and an optional expiry data but additional fields can be added as required.  For an example model file see: 
 
     engine/example_model.js
 
