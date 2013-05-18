@@ -58,8 +58,8 @@ Both methods return an indexed array of programmes (the best recommendation is a
 
 Items beyond their expiry date (if present) will not be returned.
 
-The engine includes a genre diversification post-filter which prevents the same genre appearing more than once in three consecutive recommendations. To disable set the diversify variable in the Receng function to false.
-    
+The engine includes a genre diversification post-filter which prevents the same genre appearing more than once in three consecutive recommendations. To disable set the diversify variable in the getRecs prototype to false.
+
 Recommender model 
 -------------------
 

@@ -1,6 +1,5 @@
 function Receng() {
   var method = "WeightedItemKNN";
-  var diversify = true;
 }
 
 Receng.prototype.getChoices = function(genre, type, likes, dislikes) {
@@ -33,6 +32,7 @@ Receng.prototype.getChoices = function(genre, type, likes, dislikes) {
 };
 
 Receng.prototype.getRecs = function(genre, type, likes, dislikes) {
+  var diversify = false;
   if(!genre) genre = "all";
   if(!type) type = "all";
   if(!likes) likes = [];
