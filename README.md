@@ -1,7 +1,7 @@
 clientside-recommender
 =================
 
-A client-side recommender system implemented in Javascript. It uses the Weighted Item kNN algorithm, as implemented in the MyMediaLite Recommender System Framework which can be used to train the kNN model.
+A client-side recommender system implemented in Javascript. It uses the Weighted Item kNN algorithm, as implemented in the MyMediaLite Recommender System Framework which can be used to train the required kNN model.
 
 * [http://mymedialite.net/](http://mymedialite.net/)
 
@@ -23,7 +23,7 @@ Recommender engine
 
 The engine implements pre-filtering, prediction, ranking and post-filtering.
 
-    engine/receng-wknn-1.0.js
+    [engine/receng-wknn-1.0.js](https://github.com/bbcrd/clientside-recommender/blob/master/engine/receng-wknn-1.0.js)
     
 It provides two methods:
 
@@ -65,19 +65,16 @@ Recommender model
 
 The model file contains a kNN model and some basic item metadata which is used for filtering and presentation purposes. The metadata consists of title, genre, media type and an optional expiry data but additional fields can be added as required.  For an example model file see: 
 
-    engine/example_model.js
+    [engine/example_model.js](https://github.com/bbcrd/clientside-recommender/blob/master/engine/example_model.js)
 
 The models can either use content-based filtering (based on item-attributes) or use collaborative filtering (based on user-item feedback). Two example files show how to build these models:
  
-     src/AttributeBasedModelBuilder.java
-     src/CollaborativeModelBuilder.java
+     [src/AttributeBasedModelBuilder.java](https://github.com/bbcrd/clientside-recommender/blob/master/src/AttributeBasedModelBuilder.java)
+     src/CollaborativeModelBuilder.java  (comming soon)
 
-Both require the JAR file:
-
-    lib/mymedialite.jar
+These files have several TODO comments where you need to supply data of some kind. Both require this JAR file in the classpath:
+    [lib/mymedialite.jar](https://github.com/bbcrd/clientside-recommender/tree/master/lib)
     
-These files have several TODO comments where you need to supply data of some kind.
-
 Licensing terms and authorship
 ------------------------------
 
