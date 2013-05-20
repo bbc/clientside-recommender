@@ -65,7 +65,7 @@ Recommender model
 
 The model file contains a kNN model and some basic item metadata which is used for filtering and presentation purposes. The metadata consists of title, genre, media type and an optional expiry data but additional fields can be added as required.  For an example model file see: 
 
-* [engine/example_model.js](https://github.com/bbcrd/clientside-recommender/blob/master/engine/example_model.js)
+* [engine/example_model.js](https://github.com/bbcrd/clientside-recommender/blob/master/engine/example-model.js)
 
 The models can either use content-based filtering (based on item-attributes) or use collaborative filtering (based on user-item feedback). Two example files show how to build these models:
  
