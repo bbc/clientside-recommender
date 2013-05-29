@@ -70,9 +70,9 @@ The model file contains a kNN model and some basic item metadata which is used f
 The models can either use content-based filtering (based on item-attributes) or use collaborative filtering (based on user-item feedback). Two example files show how to build these models:
  
 * [src/AttributeBasedModelBuilder.java](https://github.com/bbcrd/clientside-recommender/blob/master/src/AttributeBasedModelBuilder.java)
-* src/CollaborativeModelBuilder.java  (comming soon)
+* [src/CollaborativeModelBuilder.java](https://github.com/bbcrd/clientside-recommender/blob/master/src/CollaborativeModelBuilder.java)
 
-These files have several TODO comments where you need to supply data of some kind. Both require this JAR file in the classpath:
+Note that these files have several TODO comments where you need to supply data of some kind. Both require this JAR file in the classpath:
 
 * [lib/mymedialite.jar](https://github.com/bbcrd/clientside-recommender/tree/master/lib)
     
