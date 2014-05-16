@@ -49,10 +49,10 @@ Both methods return an indexed array of programmes (the best recommendation is a
     
 <table> 
 <tr><th>Key</th><th>Value</th></tr>
-<tr><td>“p”</td><td>item D</td></tr>
-<tr><td>“t”</td><td>title</td></tr>
-<tr><td>“g”</td><td>genre</td></tr>
-<tr><td>“v”</td><td>media type</td></tr>
+<tr><td>ï¿½pï¿½</td><td>item D</td></tr>
+<tr><td>ï¿½tï¿½</td><td>title</td></tr>
+<tr><td>ï¿½gï¿½</td><td>genre</td></tr>
+<tr><td>ï¿½vï¿½</td><td>media type</td></tr>
 <tr><td>"x"</td><td>expiry date (optional) e.g. "2012/12/27 20:55:00"</td></tr> 
 </table>
 
@@ -88,3 +88,6 @@ See [AUTHORS](AUTHORS)
 ## Copyright
 
 Copyright 2013 British Broadcasting Corporation
+
+## Acknowledgements
+This work was co-funded through the European Commission FP7 project ViSTV-TV under grant agreement No. 269126.
