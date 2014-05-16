@@ -85,9 +85,10 @@ See [COPYING](COPYING)
 
 See [AUTHORS](AUTHORS)
 
+## Acknowledgements
+
+This work was co-funded through the European Commission FP7 project ViSTV-TV under grant agreement No. 269126.
+
 ## Copyright
 
 Copyright 2013 British Broadcasting Corporation
-
-## Acknowledgements
-This work was co-funded through the European Commission FP7 project ViSTV-TV under grant agreement No. 269126.
